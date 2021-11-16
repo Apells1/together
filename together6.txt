@@ -1,0 +1,18 @@
+items = []
+
+answer = input("enter an item to purchese (NA to end) ")
+while answer.uppder() != "NA":
+  items.append(answer)
+  answer = input("enter an item to purchese (NA to end) ")
+print(items)
+print("================")
+for item in items:
+  print(item)
+
+participants=["Bob", "Sue", "Craig", "Eric", "Lisa", "Jennifer"]
+name = input("what name are you looking for? ")
+
+if name in participants:
+  print(name + " "+ "is at the event")
+else:
+   print(name + " "+ "is not at the event")
